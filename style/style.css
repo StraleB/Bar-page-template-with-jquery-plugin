@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/*font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap');
+/*font-family: 'Ubuntu Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Cantarell&display=swap');
+/*font-family: 'Cantarell', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#tabletAndPhone {
+    display: none;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70em;
+    margin: -12em 0;
+}
+
+
+.carousel-header {
+    margin: -50em 0;
+}
+
+.carousel-header h2 {
+    color: rgba(255, 255, 255, 0.774);
+    font-family: 'Lato', sans-serif;
+    font-size: 3.2em;
+    padding-bottom: 10px;
+    margin: -9em 12em;
+    width: 10em;
+}
+
+.carousel-header p {
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 2.3em;
+    width: 20em;
+    font-family: 'Lato', sans-serif;
+    margin: 13em 16.5em;
+    text-shadow: 2px 2px black;
+
+}
+
+.carousel-header img[alt="logo"] {
+    margin: 12em 20em;
+}
+
+.carousel-header button {
+    margin: -11.3em 15em;
+    float: left;
+    background: rgba(255, 255, 255, 0.212);
+    border: 1px solid rgba(2, 1, 1, 0);
+    font-size: 2.5em;
+    width: 7em;
+    color: white;
+    cursor: pointer;
+}
+
+.blackCover {
+    background: rgba(0, 0, 0, 0.431);
+    height: 60em;
+    width: 100%;
+    margin: -6.4em 0;
+}
+
+nav {
+    margin: 12em 0em;
+}
+
+nav li {
+    display: inline-table;
+    float: right;
+    margin-right: 2em;
+}
+
+li a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+
+li a:hover {
+    color: rgb(211, 211, 211);
+}
+
+
+.reservation {
+    text-align: center;
+    background: url(https://i.ibb.co/f2N7jwv/pexels-photo-274192.jpg)no-repeat;
+    height: 60em;
+    background-size: cover;
+}
+
+
+
+.reservation label {
+    font-family: 'Cantarell', sans-serif;
+    color: white;
+}
+
+.reservation input {
+    font-family: 'Cantarell', sans-serif;
+}
+
+.reservation h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 3em;
+    transform: rotate(-4deg);
+    padding: 1em 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 6px rgb(0, 0, 0);
+}
+
+label[for="message"] {
+    float: left;
+    margin: 1em 35%;
+}
+
+textarea {
+    float: left;
+    margin: 0em 40%;
+    font-family: 'Cantarell', sans-serif;
+    box-shadow: 2px 2px 8px 0px black;
+}
+
+input[type="submit"] {
+    margin: 2em 44%;
+    float: left;
+    background: rgb(36, 36, 36);
+    border: 1px solid white;
+    padding: 3px 41px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+input[type="submit"]:active {
+    background: rgb(61, 61, 61);
+}
+
+.events {
+    margin: 0em 0;
+    text-align: center;
+    background: url(https://images.pexels.com/photos/1717082/pexels-photo-1717082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)no-repeat;
+    background-size: cover;
+    background-position-y: -9em;
+}
+
+.events h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+}
+
+.events p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.63)
+}
+
+.eventsTxt {
+    margin: auto;
+    width: 60%;
+}
+
+img[alt="concert"],
+img[alt="Beer Nights"] {
+    height: 17em;
+    width: 27em;
+    padding-right: 45em;
+    padding-top: 1.2em;
+}
+
+figcaption {
+    float: right;
+    color: white;
+    margin: -8em 15em;
+    font-size: 1.5em;
+    width: 10em;
+    font-family: 'Cantarell', sans-serif;
+    background: rgba(0, 0, 0, 0.459);
+}
+
+.location {
+    background: url(https://images.pexels.com/photos/1267151/pexels-photo-1267151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    height: 15em;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -13em;
+}
+
+.location img {
+    margin: -11em 25em;
+    float: right;
+}
+
+.location p {
+    margin: 5em 25em;
+    float: left;
+}
+
+footer {
+    background: rgb(90, 52, 52);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em
+}
+
+footer a {
+    color: rgb(152, 207, 255);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1670px) {
+    figcaption {
+        margin: -8em 10em;
+    }
+
+    .location p {
+        margin: 5em 16em;
+    }
+}
+
+
+@media screen and (max-width: 1580px) {
+    .location img {
+        margin: -11em 20em;
+    }
+
+    figcaption {
+        margin: -8em 8em;
+    }
+}
+
+
+@media screen and (max-width: 1480px) {
+    .carousel-header h2 {
+        font-size: 3.1em;
+        margin: -9em 9em;
+    }
+
+    .carousel-header p {
+        font-size: 2.2em;
+        margin: 13em 12.6em;
+    }
+
+    .carousel-header img[alt="logo"] {
+        margin: 12em 10em;
+    }
+
+    .carousel-header button {
+        margin: -11.3em 12em;
+        font-size: 2.3em
+    }
+
+    figcaption {
+        margin: -8em 4em;
+    }
+
+}
+
+@media screen and (max-width: 1270px) {
+    .reservation {
+        margin: -20em 0;
+    }
+
+    .reservation h2 {
+        font-size: 2.5em;
+    }
+
+    textarea {
+        float: left;
+        margin: 0em 40%;
+        height: 15em;
+    }
+
+    input[type="submit"] {
+        font-size: 2em;
+    }
+
+    .location p {
+        margin: 5em 5em;
+    }
+
+    figcaption {
+        margin: -8em 0em;
+    }
+
+}
+
+@media screen and (max-width: 1051px) {
+    .carousel-header h2 {
+        font-size: 2.7em;
+        margin: -10.5em 9.3em;
+        width: 10em;
+    }
+
+    .carousel-header p {
+        font-size: 1.7em;
+        margin: 17em 15em;
+    }
+
+    .reservation h2 {
+        font-size: 2.3em;
+    }
+
+    textarea {
+        float: left;
+        margin: 0em 38%;
+        height: 15em;
+    }
+
+    input[type="submit"] {
+        font-size: 1.8em;
+    }
+
+    .location p {
+        margin: 5em 5em;
+    }
+
+    figcaption {
+        margin: -8em 0em;
+    }
+
+    .events h1 {
+        font-size: 3em;
+    }
+
+    .events p {
+        font-size: 1.3em;
+    }
+
+    img[alt="concert"],
+    img[alt="Beer Nights"] {
+        height: 10em;
+        width: 20em;
+        padding-right: 45em;
+        padding-top: 1.2em;
+    }
+
+    figcaption {
+        margin: -5em 2em;
+        font-size: 1.3em;
+    }
+
+    .location img {
+        margin: -11em 11em;
+    }
+
+    .location p {
+        margin: 5em 5em;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    nav {
+        display: none;
+    }
+    
+header {
+    height: 70em;
+    margin: -21.8em 0;
+}
+.carousel-header {
+    margin: -56em 0;
+}
+
+.blackCover {
+    background: rgba(0, 0, 0, 0.431);
+    height: 60em;
+    width: 100%;
+    margin: -25.4em 0;
+}
+
+    #tabletAndPhone {
+        display: block;
+        text-align: right;
+        width: 100%;
+        z-index: 3;
+        top: -320px;
+        word-spacing: 24px;
+        font-size: 1.8em;
+        height: 1.5em;
+    }
+
+    #tabletAndPhone a {
+        color: white;
+        padding-right: 25px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .carousel-header h2 {
+        font-size: 2.3em;
+        margin: -11.5em 8em;
+    }
+
+    .carousel-header p {
+        font-size: 1.3em;
+        margin: 21em 14em;
+    }
+
+    .carousel-header img[alt="logo"] {
+        margin: 12em 2em;
+    }
+
+    .carousel-header button {
+        font-size: 1.6em;
+        margin: -16em 11.3em;
+    }
+
+    .events {
+        height: 50em;
+    }
+
+    img[alt="concert"],
+    img[alt="Beer Nights"] {
+        height: 10em;
+        width: 18em;
+        padding-right: 0;
+        padding-top: 1.2em;
+    }
+
+    figcaption {
+        margin: 1em 6em;
+        font-size: 1.3em;
+    }
+
+    .location {
+        margin: 0em 0;
+    }
+
+    .location img {
+        height: 6em;
+        width: 8em;
+        margin: -6.4em 8em;
+    }
+
+    .location p {
+        margin: 3.8em 6em;
+        font-size: 0.7em;
+    }
+
+    footer {
+        margin: -12em 0;
+        height: 10em;
+        font-size: 0.95em;
+        clear: both;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .carousel-header img[alt="logo"] {
+        margin: 12em 0em;
+        height: 12em;
+        width: 12em;
+    }
+
+    .carousel-header p {
+        font-size: 1.1em;
+        margin: 23em 11.4em;
+    }
+
+    .carousel-header h2 {
+        font-size: 2.1em;
+        margin: -11.5em 6em;
+    }
+
+    .carousel-header button {
+        font-size: 1.3em;
+        margin: -18em 9.5em;
+    }
+
+    .reservation h2 {
+        font-size: 1.8em;
+    }
+
+    label[for="name"] {
+        float: left;
+        margin: 0 1em;
+    }
+
+    input[placeholder="name"] {
+        float: left;
+    }
+
+    label[for="tables"] {
+        float: left;
+        margin: 4em -13.5em;
+    }
+
+    select[name="Tables"] {
+        float: left;
+        margin: 5em -5em;
+    }
+
+    label[for="people"] {
+        margin: 8em -13.4em;
+        float: left;
+    }
+
+    select[name="people"] {
+        float: left;
+        margin: 10em -5em;
+    }
+
+    textarea {
+        float: left;
+        margin: -12em 25%;
+        height: 10em;
+    }
+
+    label[for="message"] {
+        margin: 12em -4.5em;
+    }
+
+    input[type="submit"] {
+        font-size: 1.5em;
+        margin: 0 10em;
+    }
+
+    .events {
+        height: 59em;
+    }
+
+    .events p {
+        width: 25em;
+        margin: 1rem -25%;
+    }
+
+    figcaption {
+        margin: 1em 4em;
+        font-size: 1.3em;
+    }
+
+    .location {
+        height: 23em;
+        margin: -7em 0;
+        padding-bottom: 0;
+    }
+
+    footer {
+        margin: -10em 0;
+        float: left;
+        width: 100%;
+        bottom: 0;
+        height: 16em;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .carousel-header p {
+        font-size: 1em;
+        margin: 23em 11.6em;
+    }
+
+    .carousel-header h2 {
+        font-size: 2em;
+        margin: -11.5em 5.8em;
+    }
+
+    .carousel-header button {
+        font-size: 1.1em;
+        margin: -19em 10.5em;
+    }
+
+    .events p {
+        width: 23em;
+        margin: 1rem -23%;
+    }
+
+    figcaption {
+        font-size: 1.1em;
+    }
+
+    .location img {
+        height: 5em;
+        width: 7em;
+        margin: -6.4em 4.5em;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .carousel-header img[alt="logo"] {
+        margin: 4em 30%;
+        height: 12em;
+        width: 12em;
+    }
+
+    .carousel-header p {
+        font-size: 1em;
+        margin: 3em 7em;
+    }
+
+    .carousel-header h2 {
+        font-size: 2em;
+        margin: -1em 3.5em;
+    }
+
+    .carousel-header button {
+        font-size: 1.2em;
+        margin: 0em 9em;
+    }
+
+    textarea {
+        float: left;
+        margin: -2em 18%;
+        height: 10em;
+    }
+
+    input[type="submit"] {
+        font-size: 1.3em;
+        margin: 2em 8em;
+    }
+
+    .events p {
+        width: 23em;
+        font-size: 1.1em;
+        margin: 1rem -20%;
+    }
+
+    .location img {
+        height: 5em;
+        width: 7em;
+        margin: -6.4em 3em;
+    }
+
+    label[for="message"] {
+        margin: 12em -9em;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    .carousel-header img[alt="logo"] {
+        margin: 4em 25%;
+        height: 10em;
+        width: 10em;
+    }
+    
+    .carousel-header p {
+        margin: 3em 10%;
+    }
+
+    .carousel-header h2 {
+        margin: -1em 10%;
+    }
+
+    .carousel-header button {
+        margin: 0em 26%;
+    }
+
+    textarea {
+        float: left;
+        margin: -4em 18%;
+        height: 10em;
+    }
+
+    input[type="submit"] {
+        font-size: 1.3em;
+        margin: 3em 7em;
+    }
+
+    label[for="message"] {
+        margin: 12em -12em;
+    }
+
+    .events p {
+        width: 20em;
+        font-size: 1em;
+        margin: 1rem -22%;
+    }
+
+    img[alt="concert"],
+    img[alt="Beer Nights"] {
+        height: 8em;
+        width: 16em;
+        padding-right: 0;
+        padding-top: 1.2em;
+    }
+
+    figcaption{
+        margin: 1em 2em;
+    }
+
+    
+    .location img {
+        height: 5em;
+        width: 7em;
+        margin: -5.2em 1em;
+    }
+ 
+    .location p {
+        margin: 3.8em 3em;
+        font-size: 0.65em;
+    }
+}

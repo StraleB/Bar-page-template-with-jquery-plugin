@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="fullclip.js"></script>
+    <title>Bar page</title>
+</head>
+
+<body>
+    <a name="Home"></a>
+    <header class="fullBackground">
+        <nav>
+            <li><a href="#Events">Events</a></li>
+            <li><a href="#Reservations">Reservations</a></li>
+            <li><a href="#Home">Home</a></li>
+        </nav>
+
+        <!--Phone and Tablet nav-->
+
+        <nav id="tabletAndPhone">
+            <a href="#Home"><i class="fas fa-home"></i></a>
+            <a href="#Reservations"><i class="far fa-sticky-note"></i></a>
+            <a href="#Events"><i class="fas fa-calendar-alt"></i></a>
+        </nav>
+        <div class="blackCover"></div>
+        <div class="carousel-header">
+            <img src="https://i.ibb.co/kS87sDF/Ol-John-Logo.png" height="250" width="250" alt="logo">
+            <h2>Welcome to Ol' Johns</h2>
+            <p>One of the oldest Bars in the States, enriched with History and tradition, we truly hope that our
+                visitors will have a good time</p>
+            <button>Get Started</button>
+        </div>
+    </header>
+    <a name="Reservations"></a>
+    <section class="reservation">
+        <h2>Are you affraid that there won't be enough places <br>Make your reservation here!!!</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="name">
+            <label for="tables">Number of tables</label>
+            <select name="Tables">
+                <option value="1">Number of Tables</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+            </select>
+            <label for="people">Number of people</label>
+            <select name="people">
+                <option value="1">2</option>
+                <option value="2">4</option>
+                <option value="3">8+</option>
+            </select>
+            <label for="message">Message:</label>
+            <textarea name="message" cols="40" rows="20"></textarea>
+        </form>
+        <input type="submit" value="submit">
+    </section>
+<a name="Events"></a>
+    <section class="events">
+        <section class="eventsTxt">
+            <h1>Events</h1>
+            <p>Enjoy our various events like Weekly concerts from Various artists across the country, <br>And our famous
+                Beer Nights where we treat you with various brends of beer coming from all around the world</p>
+            <img src="https://i.ibb.co/Yf0mRgD/pexels-photo-759832.jpg" alt="concert">
+            <figcaption>"Weekly Concert Satudays at 8PM"</figcaption>
+            <img src="https://i.ibb.co/yPYqG4G/beer-machine-alcohol-brewery-159291.jpg" alt="Beer Nights">
+            <figcaption>"Beer Nights Fridays at 9PM"</figcaption>
+        </section>
+    </section>
+
+    <div class="location">
+        <p>You can find us at<br> <b>Random Street 16</b></p>
+        <img src="https://i.ibb.co/KhGyyJp/camden-head.jpg" alt="location">
+    </div>
+    <footer>
+        <p style="float: right; padding-right:10px;">&copy;2019</p>
+        <p> Simple bar template made, logo and everything is for commercial use only<br>it's free to use and its made by
+            <a href="https://www.linkedin.com/in/straleb/">StraleB<a /></a></p>
+    </footer>
+    <script>
+        $('.fullBackground').fullClip({
+            images: ['https://i.ibb.co/BnHNyph/pexels-photo-331107.jpg',
+                'https://i.ibb.co/8XSsyzB/pexels-photo-301692.jpg',
+                'https://i.ibb.co/tBHZMxg/pexels-photo-1554654.jpg'
+            ],
+            transitionTime: 1000,
+            wait: 3000
+        });
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+
+</html>
